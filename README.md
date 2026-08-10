@@ -10,6 +10,7 @@ keep sensitive information like secrets and even the URL to your database, even 
 it is a good security practise. ".gitkeep" are just placeholder files to ensure that empty folders are
 cloned, if not git will ignore them and template structure breaks.
 
+``` text
 │   .env
 │   .gitignore
 │   main.py
@@ -39,5 +40,5 @@ cloned, if not git will ignore them and template structure breaks.
         test_extract_data.py
 		test_transform_data.py
 		test_load_data.py
-
+```
 
