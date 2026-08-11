@@ -17,6 +17,8 @@ cloned, if not git will ignore them and template structure breaks.
 │   README.md
 │   requirements.txt
 │   
+├───docs
+│   
 ├───data
 │   ├───archive
 │   │       .gitkeep
