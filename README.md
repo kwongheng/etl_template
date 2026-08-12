@@ -10,6 +10,9 @@ keep sensitive information like secrets and even the URL to your database, even 
 it is a good security practise. ".gitkeep" are just placeholder files to ensure that empty folders are
 cloned, if not git will ignore them and template structure breaks.
 
+If you have more complex ETL scripts, for example, if you need to extract files from different sources,
+create subfolders src/extract, src/transform and src/load can make it cleaner. 
+
 ``` text
 │   .env
 │   .gitignore
